@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Nunito+Sans:wght@400;700&family=Signika+Negative:wght@500;700&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* navbar */
+.navbar{
+    height: 70px;
+    background-color: antiquewhite;
+    color: crimson;
+   display: flex;
+   z-index: 1;
+}
+
+.navbar .logo{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 5px;
+    
+}
+.navbar .nav-item{
+    margin-left: 800px;
+    margin-top: 15px;
+}
+.btn{
+    border-radius: 2px;
+    background-color: crimson;
+    color: white;
+  padding: 5px 50px 5px 50px;
+    height: 200px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: tomato;
+}
+.container{
+    width: 80%;
+}
+
+#data
+{
+   align-items: center; 
+  text-align: center;
+  justify-content: center; 
+   margin: 70px 220px 0px 220px;  
+    
+}
+ .grid-container{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+ .grid-container img{
+    
+    border-radius: 10%;
+   
+}
+ 
+ .team-all img:hover{
+    /* opacity: 0.5; */
+    width:150px;
+    /* color: rgb(234, 231, 236); */
+}
+
+
+
+
+
+/* loader */
+
+.loader{
+    margin-top: 200px;
+    font-size: 2rem;
+    
+}
